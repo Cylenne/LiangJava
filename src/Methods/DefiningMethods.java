@@ -1,7 +1,7 @@
 package Methods;
-// 6.1 benefits of using a method: can be reused, can organize and simplify the code + make it easy to maintain
+// 6.1 benefits of using a method: code reuse, can organize and simplify the code + make it easy to maintain
 
-public class Max {
+public class DefiningMethods {
     // 6.2 simplify max method
     public static int max(int num1, int num2) {
 //        if (num1 > num2) {
