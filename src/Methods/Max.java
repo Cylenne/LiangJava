@@ -1,11 +1,15 @@
 package Methods;
-// 6.1
+// 6.1 benefits of using a method: can be reused, can organize and simplify the code + make it easy to maintain
+
 public class Max {
+    // 6.2 simplify max method
     public static int max(int num1, int num2) {
-        if (num1 > num2) {
-            return num1;
-        }
-        return num2;
+//        if (num1 > num2) {
+//            return num1;
+//        }
+//        return num2;
+
+        return (num1 > num2) ? num1 : num2;
     }
 
     /* 6.2
